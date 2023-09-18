@@ -198,7 +198,7 @@ public:
     template <class Container>
     void hex_digest(Container& container) {
         container.resize(32);
-        auto it = container.begin();
+        auto it = container.begin(); 
 
         uint32_to_hex(a0_, it);
         uint32_to_hex(b0_, it);
@@ -232,3 +232,5 @@ const std::array<std::uint32_t, 64> md5::s_array_ = {
     4, 11, 16, 23,  4, 11, 16, 23,  4, 11, 16, 23,  4, 11, 16, 23,
     6, 10, 15, 21,  6, 10, 15, 21,  6, 10, 15, 21,  6, 10, 15, 21
 }; //просто текст тест
+
+// ijfdvifiuvfivvisiv
